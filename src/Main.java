@@ -18,10 +18,13 @@ public class Main {
 			
 			if(day == 1){
 				infectedCount = 1;
-			} else {
+			} else if(day<= 8) {
 				
 				infectedCount = infectedCount + 5;
+			} else  {
+				infectedCount = infectedCount + 8;
 			}
+			
 			
 			
 			if(day%7 == 0) {
